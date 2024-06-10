@@ -33,7 +33,7 @@ async function saveHackerNewsArticles() {
         });
 
         // Specify the file path where the CSV file will be saved
-        const filePath = path.join(__dirname, 'top_10_articles.csv');
+        const filePath = path.join(__dirname, 'top_10_news_articles.csv');
         fs.writeFileSync(filePath, csvContent); // Write the CSV content to a file
 
         console.log('Top 10 articles have been successfully saved to output.csv'); // Confirm the operation's success
